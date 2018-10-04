@@ -1,21 +1,43 @@
-h1{
-	font-family:"forte", "comic sans ms";
-	font-size:45px;
-	text-align:center;
+h1 {
+	font-family: forte, comic sans ms;
+	font-size: 45px;
+	text-align: center;
 }
-img{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	/*min-width:200px;*/
-	max-width:800px;
-	height:auto;
+.construction {
+	font-family: comic sans ms;
+	font-style: italic;
+	font-size: 18px;
+	text-align: center;
+	color: red;
 }
-iframe{
-	border:2;
-	width:800px;
-	height:600px;
-	frameborder:0;
-	scrolling:yes;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+}
+.links {
+	font-family: comic sans ms;
+}
+.mobilecalendarlink {
+	font-family: comic sans ms;
+	font-size: 18px;
+	text-align: left;
+}
+.googlecalendar {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.googlecalendar iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ 
 }
