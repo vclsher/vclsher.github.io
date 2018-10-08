@@ -72,8 +72,8 @@ h1 {
 	color: red;
 }
 
-links ul {
-	list-style:none;
+.links ul {
+	list-style: none;
 }
 .links li:before{
 	content: "\1f43e\0020";
