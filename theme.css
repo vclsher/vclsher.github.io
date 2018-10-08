@@ -7,7 +7,7 @@ header img {
 	height: auto;
 }
 
-nav ul {
+ul {
 	position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -32,16 +32,17 @@ h1 {
 	color: red;
 }
 
-.links ul {
+/*links ul {
 	list-style:none;
 }
 .links li:before{
-	/*content: "\1f356\0020";*/
 	content: "\1f43e\0020";
 }
 .links {
 	font-family: comic sans ms;
 }
+*/
+
 .mobilecalendarlink {
 	font-family: comic sans ms;
 	font-size: 18px;
