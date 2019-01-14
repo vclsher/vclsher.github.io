@@ -2,20 +2,26 @@ body {
 	margin: 0;
 	}
 
-img {
+header img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	object-fit: contain;
+	height: 400px;
 	width: 100%;
-	max-width: 800px;
-	height: auto;
+	top: 0px;
+	transform: none;
+}
+
+header h1 {
+	font-family: forte, comic sans ms;
+	font-size: 45px;
+	text-align: center;
 }
 
 nav.sidenav ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-    width: 100%;
+    width: 100%; 	
     background-color: #f1f1f1;
     height: auto;
     overflow: auto;
@@ -48,7 +54,7 @@ div.content {
     height: 1000px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 735px) {
     nav.sidenav ul {
 		position: relative;
 	}
@@ -58,28 +64,12 @@ div.content {
     }
 }
 
-h1 {
-	font-family: forte, comic sans ms;
-	font-size: 45px;
-	text-align: center;
-}
-
 .construction {
 	font-family: comic sans ms;
 	font-style: italic;
 	font-size: 18px;
 	text-align: center;
 	color: red;
-}
-
-.links ul {
-	list-style: none;
-}
-.links li:before{
-	content: "\1f43e\0020";
-}
-.links {
-	font-family: comic sans ms;
 }
 
 .mobilecalendarlink {
