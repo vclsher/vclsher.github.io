@@ -98,7 +98,7 @@ div.content {
   position: relative;
   left: 50%;
   transform: translate(-50%,0%);
-  width: 200px;
+  width: 50px;
 }
 
 .mail-image {
