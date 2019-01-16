@@ -5,7 +5,7 @@ body {
 header img {
 	display: block;
 	object-fit: contain;
-	height: 400px;
+	height: 350px;
 	width: 100%;
 	top: 0px;
 	transform: none;
@@ -13,7 +13,7 @@ header img {
 
 header h1 {
 	font-family: forte, comic sans ms;
-	font-size: 45px;
+	font-size: 35px;
 	text-align: center;
 }
 
